@@ -6,7 +6,7 @@ import csv
 import row as row
 from bs4 import BeautifulSoup
 
-url = input("Please enter the URL (ex. http://www.portlandoregon.gov/bhr/81387): ")
+url = input("Please enter the URL (ex. https://pcb.illinois.gov/AboutIPCB/StaffDirectory): ")
 emailsList = []
 
 # Requests the page and then soupifies it
